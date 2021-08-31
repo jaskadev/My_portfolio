@@ -1,0 +1,221 @@
+@media screen and (max-width: 1024px) {
+    .about{
+        width: 900px;
+        height: 850px;
+        padding: 0px 60px;
+        padding-top: 20px;
+        margin-top: 40px;
+        margin-left: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .about .img-main{
+        width: 310px;
+        height: 310px;
+    }
+    .img-main .aboutMe{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .about .about-description{
+        width: 520px;
+        padding: 10px auto;
+        padding-top: 20px;
+        display: flex;
+        margin-top: 15px;
+        align-items: left;
+        justify-content: center;
+        flex-direction: column;
+        height: 360px;  
+    }
+    .about-description .details{
+        width: 510px;
+        box-sizing: border-box;
+        padding: 10px 20px;
+        height: 100%;
+        padding: auto;  
+    }
+    .details .buttons{
+        margin-top: 40px;
+        width: 480px;
+        height: 45px;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .buttons button{
+        font-size: 15px;
+        width: 120px;
+        height: 100%;
+    }
+    button:nth-child(2){
+        margin-left: 70px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .about{
+        width: 720px;
+        height: 850px;
+        padding: 0px;
+        padding-top: 20px;
+        margin-top: 40px;
+        margin-left: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .about .img-main{
+        width: 320px;
+        height: 320px;
+    }
+    .img-main .aboutMe{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .about .about-description{
+        width: 680px;
+        padding: 10px auto;
+        padding-top: 20px;
+        display: flex;
+        margin-top: 15px;
+        align-items: left;
+        justify-content: center;
+        flex-direction: column;
+        height: 360px;  
+    }
+    .about-description .details{
+        width: 600px;
+        box-sizing: border-box;
+        padding: 10px 20px;
+        height: 100%;
+        padding: auto;  
+    }
+    .details .buttons{
+        margin-top: 40px;
+        width: 530px;
+        height: 45px;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .buttons button{
+        font-size: 15px;
+        width: 120px;
+        height: 100%;
+    }
+    button:nth-child(2){
+        margin-left: 80px;
+    }
+}
+@media screen and (max-width: 501px) {
+    .about{
+        width: 480px;
+        height: 780px;
+        padding: 0px;
+        margin-top: 40px;
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .about .img-main{
+        width: 280px;
+        height: 280px;
+    }
+    .img-main .aboutMe{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .about .about-description{
+        width: 450px;
+        padding: 10px auto;
+        padding-top: 20px;
+        display: flex;
+        margin-top: 15px;
+        align-items: left;
+        justify-content: center;
+        flex-direction: column;
+        height: 540px;  
+    }
+    .about-description .details{
+        width: 400px;
+        height: 500px;
+        padding: auto;
+        margin-bottom: 10px;
+    }
+    .details .buttons{
+        margin-top: 40px;
+        width: 420px;
+        height: 45px;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .buttons button{
+        font-size: 15px;
+        width: 110px;
+        height: 100%;
+    }
+    button:nth-child(2){
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width: 370px) {
+    .about{
+        width: 350px;
+        padding: 0 0;
+        height: 700px;
+        display: flex;
+        margin-top: 40px;
+        margin-left: 10px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .about .img-main{
+        width: 220px;
+        height: 220px;
+    }
+    .img-main .aboutMe{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .about .about-description{
+        width: 370px;
+        padding: 18px auto;
+        display: flex;
+        align-items: left;
+        justify-content: center;
+        flex-direction: column;
+        height: 480px;  
+    }
+    .about-description .details{
+        width: 320px;
+        height: 500px;
+        margin-bottom: 10px;
+    }
+    .details .buttons{
+        margin-top: 40px;
+        width: 320px;
+        height: 40px;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .buttons button{
+        font-size: 15px;
+        width: 100px;
+        height: 100%;
+    }
+    button:nth-child(2){
+        margin-left: 40px;
+    }
+}
